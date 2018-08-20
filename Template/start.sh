@@ -133,8 +133,8 @@ done
 if [ "${MODE}" == "up" ]; then
   networkUp
   elif [ "${MODE}" == "generate" ]; then ## Generate Artifacts
-  generateCerts
-	replacePrivateKey
+  	generateCerts
+	#replacePrivateKey
 	generateChannelArtifacts
 else 
   echo "No mode found"
